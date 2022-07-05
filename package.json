@@ -4,9 +4,14 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
   },
   "devDependencies": {
+    "@histoire/plugin-nuxt": "^0.7.8",
+    "histoire": "^0.7.8",
     "nuxt": "3.0.0-rc.4"
   }
 }
