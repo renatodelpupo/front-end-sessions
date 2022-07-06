@@ -4,30 +4,26 @@
 
 ## Setup
 
+### CLI
+- pnpm
+
 ### Compiler
 - Babel
 - Vite
 
-### CLI
-- pnpm
-
 ### Doc
-
-- Histoire (soon)
+- Histoire
 
 ### Framework
-
 - Nuxt 3
 - Tailwind CSS
 - TypeScript
 - Vue 3
 
 ### Lint
-
 - EditorConfig (soon)
 - ESLint (soon)
 - Prettier (soon)
 
 ### Test
-
 - Jest (soon)
