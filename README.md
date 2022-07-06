@@ -18,6 +18,7 @@
 ### Framework
 
 - Nuxt 3
+- Tailwind CSS
 - TypeScript
 - Vue 3
 
@@ -26,10 +27,6 @@
 - EditorConfig (soon)
 - ESLint (soon)
 - Prettier (soon)
-
-### Methodology
-
-- Atomic Design
 
 ### Test
 
