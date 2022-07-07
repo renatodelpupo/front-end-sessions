@@ -1,30 +1,15 @@
 <script setup lang="ts">
-defineProps({
-  author: {
-    required: true,
-    type: String,
-  },
-  date: {
-    required: true,
-    type: String,
-  },
-  description: {
-    default: '',
-    type: String,
-  },
-  image: {
-    required: true,
-    type: String,
-  },
-  recordingUrl: {
-    required: true,
-    type: String,
-  },
-  title: {
-    required: true,
-    type: String,
-  },
-});
+export interface CardProps {
+  author: string;
+  date: string;
+  description?: string;
+  image: string;
+  recordingUrl: string;
+  tags?: Array<string>;
+  title: string;
+}
+
+defineProps<CardProps>();
 </script>
 
 <template>
