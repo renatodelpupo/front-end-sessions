@@ -12,6 +12,7 @@
         "
         image="https://via.placeholder.com/320x180.png"
         recordingUrl="#"
+        :tags="['JavaScript', 'Web']"
         title="JavaScript Recall"
       />
     </div>

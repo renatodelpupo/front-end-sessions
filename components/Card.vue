@@ -34,6 +34,10 @@ defineProps<CardProps>();
           v-text="description.trim()"
         />
       </div>
+
+      <div role="list" class="flex gap-2 mt-8">
+        <TagFlag v-for="tag in tags" :key="tag" :label="tag" role="listitem" />
+      </div>
     </div>
   </div>
 </template>
