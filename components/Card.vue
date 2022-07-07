@@ -14,19 +14,26 @@ defineProps<CardProps>();
 
 <template>
   <div
-    class="bg-zinc-800 focus-within:outline focus-within:outline-2 focus-within:outline-blue-500 hover:outline hover:outline-2 hover:outline-blue-500 overflow-hidden rounded-lg text-slate-50"
+    class="bg-zinc-800 flex flex-col focus-within:outline focus-within:outline-2 focus-within:outline-blue-500 hover:outline hover:outline-2 hover:outline-blue-500 overflow-hidden relative rounded-lg text-slate-50"
   >
-    <a class="block" :href="recordingUrl" target="_blank">
-      <img alt="" class="block w-full" :src="image" />
-      <div class="p-6">
-        <h2 class="text-2xl" v-text="title" />
+    <img alt="" class="block w-full" :src="image" />
+    <div class="flex flex-col h-full justify-between p-6">
+      <div>
+        <h2 class="text-2xl">
+          <a
+            class="after:absolute after:bottom-0 after:left-0 after:right-0 after:top-0"
+            :href="recordingUrl"
+            target="_blank"
+            v-text="title"
+          />
+        </h2>
         <p class="text-lg">by {{ author }}</p>
-        <p class="text-sm" v-text="date" />
+        <small class="text-sm" v-text="date" />
         <p
           class="mt-4 text-base whitespace-pre-line"
           v-text="description.trim()"
         />
       </div>
-    </a>
+    </div>
   </div>
 </template>

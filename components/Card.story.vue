@@ -10,7 +10,7 @@
           - Short explanation about each term
           - Examples of use
         "
-        image="https://via.placeholder.com/160x90.png"
+        image="https://via.placeholder.com/320x180.png"
         recordingUrl="#"
         title="JavaScript Recall"
       />
