@@ -27,11 +27,11 @@ defineProps<CardProps>();
             v-text="title"
           />
         </h2>
-        <p class="text-lg">by {{ author }}</p>
+        <p v-if="author" class="text-lg">by {{ author }}</p>
         <small class="text-sm" v-text="date" />
         <p
           class="mt-4 text-base whitespace-pre-line"
-          v-text="description.trim()"
+          v-text="description?.trim()"
         />
       </div>
 
