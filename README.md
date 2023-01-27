@@ -1,6 +1,8 @@
 # Team Sessions
 
----
+## See now
+
+[🚀 Page example](https://renatodelpupo.github.io/team-sessions/site/) | [📝 Histoire docs](https://renatodelpupo.github.io/team-sessions/)
 
 ## Setup
 
