@@ -318,7 +318,7 @@ const router = createRouter({
       component: () => __vitePreload(() => import("./HomeView.96674486.js"), true ? ["assets/HomeView.96674486.js","assets/vendor.d7fe5d60.js","assets/mapping.9a86001b.js"] : void 0)
     },
     {
-      path: "/story/:storyId",
+      path: "/team-sessions/story/:storyId",
       name: "story",
       component: () => __vitePreload(() => import("./StoryView.95421557.js"), true ? ["assets/StoryView.95421557.js","assets/vendor.d7fe5d60.js","assets/BaseEmpty.3122e58e.js","assets/mapping.9a86001b.js","assets/state.061e1d25.js"] : void 0)
     }
