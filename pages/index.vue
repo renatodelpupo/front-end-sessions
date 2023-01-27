@@ -28,7 +28,7 @@ const updateSearch = (term) => {
     </h1>
 
     <div class="p-8 md:py-16">
-      <SearchBar class="mb-8" @search="updateSearch"/>
+      <SearchBar class="mb-8" :trainings-list="trainingsList" @search="updateSearch"/>
       <CardList :cards="trainingsListFiltered"/>
     </div>
   </div>
